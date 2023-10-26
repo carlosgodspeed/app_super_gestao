@@ -51,16 +51,16 @@ button:hover {
 }
 
 ::placeholder {
-    color: #333333;
+    color: #000000;
     opacity: 1;
 }
 
 :-ms-input-placeholder {
-    color: #333333;
+    color: #000000;
 }
 
 ::-ms-input-placeholder {
-    color: #333333;
+    color: #000000;
 }
 
 .topo {
@@ -96,7 +96,7 @@ button:hover {
 .menu a {
     text-decoration: none;
     padding: 14px 16px;
-    color: #333;
+    color: #000000;
 }
 
 .menu a:hover {
@@ -111,14 +111,14 @@ button:hover {
 
 .esquerda {
     float:left;
-    background-color: #268fd0;
+    background-color: rgb(0, 166, 255);
     width: 60%;
     height: 100%;
 }
 
 .direita {
     float:right;
-    background-color: #2a9ee2;
+    background-color: silver;
     width: 40%;
     height: 100%;
 }
@@ -164,7 +164,7 @@ button:hover {
 }
 
 .informacao-pagina p{
-    color: #333;
+    color: #000000;
 }
 
 .rodape {
