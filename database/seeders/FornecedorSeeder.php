@@ -29,6 +29,5 @@ class FornecedorSeeder extends Seeder
             'uf' => 'RJ',
             'email' => 'klaus@mikaelson.com',
         ]);
-        
     }
 }
