@@ -10,7 +10,7 @@ class SiteContatoSeeder extends Seeder
 {
     public function run()
     {
- 
+      /*
       $qtde = SiteContato::count();
       if ($qtde == 0 ){
  
@@ -22,5 +22,8 @@ class SiteContatoSeeder extends Seeder
         $contato->mensagem = 'Seja Bem Vindo!';
         $contato->save();
       }
+      */
+
+      \App\Models\SiteContato::factory()->count(100)->create();
     }
 }
